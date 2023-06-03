@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">List View</string>
+
+    <string-array name = "products">
+        <item>A4 65grm paper</item>
+        <item>A4 70grm paper</item>
+        <item>A4 80grm paper</item>
+        <item>B4 65grm paper</item>
+        <item>B4 70grm paper</item>
+        <item>B4 80grm paper</item>
+        <item>20 * 32 paper</item>
+        <item>21 * 34 paper</item>
+        <item>22 * 35 paper</item>
+        <item>23 * 36 paper</item>
+        <item>9 * 14 paper</item>
+        <item>White print</item>
+        <item>Ruling paper</item>
+        <item>Plain sheet</item>
+        <item>Graph paper</item>
+        <item>Art paper</item>
+        <item>Tissue paper</item>
+        <item>Normal paper</item>
+        <item>News paper</item>
+
+    </string-array>
+</resources>
