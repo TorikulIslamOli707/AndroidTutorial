@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 class MainActivity : AppCompatActivity() {
     // creating recycler view.
     lateinit var countryRecyclerView: RecyclerView
+    lateinit var adapter: StudentAdapter
 
     var studentName = ArrayList<String>()
     var studentDetails = ArrayList<String>()
@@ -39,5 +40,8 @@ class MainActivity : AppCompatActivity() {
         studentImage.add(R.drawable.ali)
         studentImage.add(R.drawable.panda)
         studentImage.add(R.drawable.burger)
+
+        adapter = StudentAdapter(studentName, studentDetails, studentImage, this@MainActivity)
+        countryRecyclerView.adapter = adapter
     }
 }
