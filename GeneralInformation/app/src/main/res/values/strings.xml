@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GeneralInformation</string>
+
+    <string-array name="names">
+        <item>Al Imran</item>
+        <item>Jhorna Khan</item>
+        <item>Mohona Sheikh</item>
+    </string-array>
+</resources>
